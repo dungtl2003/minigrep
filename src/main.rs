@@ -2,7 +2,7 @@ use std::env;
 use std::process;
 use std::process::exit;
 
-use minigrep::Config;
+use minigrep_dungtl2003::Config;
 
 fn main() {
     let config = Config::build(env::args()).unwrap_or_else(|err| {
@@ -10,7 +10,7 @@ fn main() {
         process::exit(1);
     });
 
-    if let Err(e) = minigrep::run(&config) {
+    if let Err(e) = minigrep_dungtl2003::run(&config) {
         eprintln!("Application error: {e}");
         exit(1);
     };

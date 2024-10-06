@@ -1,5 +1,5 @@
 [package]
-name = "minigrep"
+name = "minigrep_dungtl2003"
 version = "0.1.0"
 edition = "2021"
 description = "very small project for rust that can find lines you want in a file"

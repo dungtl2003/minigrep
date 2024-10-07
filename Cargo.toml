@@ -1,8 +1,12 @@
 [package]
 name = "minigrep_dungtl2003"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "very small project for rust that can find lines you want in a file"
 license = "MIT" 
+
+[[bin]]
+name = "mg"
+path = "src/main.rs"
 
 [dependencies]
